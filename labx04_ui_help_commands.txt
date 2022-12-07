@@ -1,0 +1,22 @@
+|-----------------------------------------------------------------------|\n
+|------------- Motor Controller Command Help ---------------------------|\n
+|-----------------------------------------------------------------------|\n
+|------------- Open Loop Commands --------------------------------------|\n
+|___z or Z___| zero the pos. of encoder 1 or 2                          |\n
+|___p or P___| print pos. of encoder 1 or 2                             |\n
+|___d or D___| print delta for encoder 1 or 2                           |\n
+|___v or V___| print vel. for encoder 1 or 2                            |\n
+|___m or M___| user prompt for duty cycle for motors 1 or 2             |\n
+|___g or G___| collect data (vel. & pos.) for 30 sec from enc 1 or 2    |\n
+|___c or C___| switch modes to closed loop                              |\n
+|-----------------------------------------------------------------------|\n
+|------------ Closed Loop Commands -------------------------------------|\n
+|___k or K___| choose closed loop gains for motor 1 or motor 2          |\n
+|___s or S___| choose a velocity setpoint for motor 1 or motor 2        |\n
+|___r or R___| trigger a step response on motor 1 or 2, send data to PC |\n
+|___o or O___| switch modes to open loop                                |\n
+|-----------------------------------------------------------------------|\n
+|------------ Switch Motors --------------------------------------------|\n
+|___a or A___| change selected motor to motorA                          |\n
+|___b or B___| change selected motor to motorB                          |\n
+|-----------------------------------------------------------------------|\n
